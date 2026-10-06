@@ -2,6 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/@jeffy-g/live-midi-types.svg)](https://www.npmjs.com/package/@jeffy-g/live-midi-types)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![npm](https://img.shields.io/npm/dm/@jeffy-g/live-midi-types.svg?style=plastic)
 
 Shared TypeScript types and small runtime helpers for Ableton Live MIDI clip data, project summaries, and Standard MIDI Files.
 
