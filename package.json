@@ -1,0 +1,46 @@
+{
+  "name": "@jeffy-g/live-midi-types",
+  "version": "0.11.3",
+  "description": "Common TypeScript types for Ableton Live MIDI clip and event data.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./midi10-smf-types": {
+      "import": "./dist/midi10-smf-types.js",
+      "require": "./dist/midi10-smf-types.js",
+      "types": "./dist/midi10-smf-types.d.ts"
+    },
+    "./midi10-smf-io": {
+      "types": "./dist/midi10-smf-io.d.ts",
+      "import": "./dist/midi10-smf-io.js",
+      "default": "./dist/midi10-smf-io.js"
+    },
+    "./ESMFEventType": {
+      "types": "./dist/ESMFEventType.d.ts",
+      "import": "./dist/smf-event-type.js",
+      "default": "./dist/smf-event-type.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "jeffy-g <hirotom1107@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffy-g/live-midi-types.git"
+  },
+  "keywords": [
+    "ableton",
+    "midi",
+    "typescript",
+    "types",
+    "music"
+  ]
+}
